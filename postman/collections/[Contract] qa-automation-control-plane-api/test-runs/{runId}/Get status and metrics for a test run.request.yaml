@@ -7,7 +7,7 @@ headers:
     value: application/json
 pathVariables:
   - key: runId
-    value: 4b5c1258-fd0c-a0ce-e957-4e4378266c24
+    value: 99e0c866-bbdc-af84-52de-a247cc27fea4
 scripts:
   - type: afterResponse
     code:
@@ -77,16 +77,16 @@ examples:
         type: json
         content: |-
           {
-            "runId": "6b9dbe30-b5f0-757c-5834-48adfa97cd28",
-            "suiteId": "5a3ff068-c69a-8d76-1b85-938748d7d2e6",
-            "status": "passed",
+            "runId": "625aa273-15c9-9482-f4e3-aa07a3fee56b",
+            "suiteId": "e98a1c6f-7fce-b463-6fb4-a5f1968b52b3",
+            "status": "cancelled",
             "environment": "string",
             "releaseVersion": "string",
-            "startedAt": "1996-01-31T14:55:23.107Z",
-            "finishedAt": "2018-08-19T18:39:35.021Z",
-            "passedCount": 5113,
-            "failedCount": 7141,
-            "flakyCount": 3804
+            "startedAt": "1982-06-03T17:37:53.956Z",
+            "finishedAt": "1947-11-25T07:33:20.210Z",
+            "passedCount": 2542,
+            "failedCount": 9986,
+            "flakyCount": 3535
           }
       headers:
         - key: Content-Type
@@ -101,7 +101,7 @@ examples:
           {
             "error": "string",
             "message": "string",
-            "statusCode": 1111
+            "statusCode": 822
           }
       headers:
         - key: Content-Type

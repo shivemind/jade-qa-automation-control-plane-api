@@ -3,7 +3,7 @@ type: collection
 name: '[Contract] qa-automation-control-plane-api'
 description: |
   Sample API for triggering, tracking, and reporting enterprise QA automation runs across applications, environments, and release trains.
-id: 9dc996b6-96e1-4d82-9fb9-cc7b42da6762
+id: 7d30d23d-13a3-4bab-b092-66a160caea7c
 variables:
   - key: baseUrl
     value: https://stage-api.example.com/qa-control

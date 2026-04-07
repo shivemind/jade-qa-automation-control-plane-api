@@ -12,9 +12,9 @@ localResources:
     - ../openapi/qa-automation-control-plane-api.yaml
 cloudResources:
   collections:
-    ../postman/collections/[Baseline] qa-automation-control-plane-api: 52400725-5cf54169-5cb7-43cd-ae74-02b975f09687
-    ../postman/collections/[Smoke] qa-automation-control-plane-api: 52400725-25e46cb4-6e4f-41be-9fed-2865b684f895
-    ../postman/collections/[Contract] qa-automation-control-plane-api: 52400725-9dc996b6-96e1-4d82-9fb9-cc7b42da6762
+    ../postman/collections/[Baseline] qa-automation-control-plane-api: 52400725-78344fd2-9934-46e1-a3cb-33f0069225f9
+    ../postman/collections/[Smoke] qa-automation-control-plane-api: 52400725-25c61a25-af48-4f69-97ee-9f8d60f06ce1
+    ../postman/collections/[Contract] qa-automation-control-plane-api: 52400725-7d30d23d-13a3-4bab-b092-66a160caea7c
   environments:
     ../postman/environments/prod.postman_environment.json: 52400725-a0fe2204-8c6b-463b-8b51-2ed5155337bd
     ../postman/environments/stage.postman_environment.json: 52400725-ccdb8d4b-3813-4282-8e34-aac60c2d833e
