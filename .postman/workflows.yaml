@@ -1,0 +1,8 @@
+workflows:
+  syncSpecToCollection:
+    - spec: ../openapi/qa-automation-control-plane-api.yaml
+      collection: ../postman/collections/[Baseline] qa-automation-control-plane-api
+    - spec: ../openapi/qa-automation-control-plane-api.yaml
+      collection: ../postman/collections/[Smoke] qa-automation-control-plane-api
+    - spec: ../openapi/qa-automation-control-plane-api.yaml
+      collection: ../postman/collections/[Contract] qa-automation-control-plane-api

@@ -1,0 +1,39 @@
+type: http
+name: Fetch a summary report for a completed run
+url: '{{baseUrl}}/test-runs/:runId/report'
+method: GET
+headers:
+  - key: Accept
+    value: application/json
+pathVariables:
+  - key: runId
+    value: a86d5627-0fda-b7ee-015b-4159dc91856c
+examples:
+  - response:
+      statusCode: 200
+      statusText: OK
+      body:
+        type: json
+        content: |-
+          {
+            "runId": "cbced441-715d-805f-a572-1ce11cc49253",
+            "qualityGate": "fail",
+            "defectLeakageRisk": "high",
+            "summary": "string",
+            "topFailures": [
+              {
+                "testName": "string",
+                "failureReason": "string",
+                "defectId": "string"
+              },
+              {
+                "testName": "string",
+                "failureReason": "string",
+                "defectId": "string"
+              }
+            ]
+          }
+      headers:
+        - key: Content-Type
+          value: application/json
+    name: Run report

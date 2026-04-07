@@ -1,0 +1,20 @@
+workspace:
+  id: 26eadf3c-acc8-40d3-aa89-b5df9f5af6af
+localResources:
+  collections:
+    - ../postman/collections/[Baseline] qa-automation-control-plane-api
+    - ../postman/collections/[Smoke] qa-automation-control-plane-api
+    - ../postman/collections/[Contract] qa-automation-control-plane-api
+  environments:
+    - ../postman/environments/prod.postman_environment.json
+    - ../postman/environments/stage.postman_environment.json
+  specs:
+    - ../openapi/qa-automation-control-plane-api.yaml
+cloudResources:
+  collections:
+    ../postman/collections/[Baseline] qa-automation-control-plane-api: 52400725-ebdeed6b-faf3-43d4-b1cf-c79e6d6bedeb
+    ../postman/collections/[Smoke] qa-automation-control-plane-api: 52400725-eb7a4564-9f77-47ad-8eb8-6cd1f41ab268
+    ../postman/collections/[Contract] qa-automation-control-plane-api: 52400725-eecb0cf4-b14f-4ab2-ac0c-dab537d31717
+  environments:
+    ../postman/environments/prod.postman_environment.json: 52400725-a0fe2204-8c6b-463b-8b51-2ed5155337bd
+    ../postman/environments/stage.postman_environment.json: 52400725-ccdb8d4b-3813-4282-8e34-aac60c2d833e

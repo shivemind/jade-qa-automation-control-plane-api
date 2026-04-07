@@ -1,0 +1,14 @@
+$schema: https://schema.postman.com/json/draft-2020-12/collection/v3.0.0/
+type: collection
+name: '[Contract] qa-automation-control-plane-api'
+description: |
+  Sample API for triggering, tracking, and reporting enterprise QA automation runs across applications, environments, and release trains.
+id: eecb0cf4-b14f-4ab2-ac0c-dab537d31717
+variables:
+  - key: baseUrl
+    value: https://stage-api.example.com/qa-control
+    type: any
+items:
+  - ref: ./test-suites/folder.yaml
+  - ref: ./test-runs/folder.yaml
+  - ref: ./00 - Resolve Secrets.request.yaml

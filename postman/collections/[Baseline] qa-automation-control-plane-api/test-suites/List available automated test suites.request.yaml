@@ -1,0 +1,36 @@
+type: http
+name: List available automated test suites
+url: '{{baseUrl}}/test-suites'
+method: GET
+headers:
+  - key: Accept
+    value: application/json
+examples:
+  - response:
+      statusCode: 200
+      statusText: OK
+      body:
+        type: json
+        content: |-
+          {
+            "data": [
+              {
+                "suiteId": "bd29bbf4-6611-9367-9563-2ee9fabd2d50",
+                "name": "string",
+                "application": "string",
+                "type": "performance",
+                "owner": "string"
+              },
+              {
+                "suiteId": "c9371745-2c01-e6f7-0f12-56cb8781a4e5",
+                "name": "string",
+                "application": "string",
+                "type": "integration",
+                "owner": "string"
+              }
+            ]
+          }
+      headers:
+        - key: Content-Type
+          value: application/json
+    name: Test suites
