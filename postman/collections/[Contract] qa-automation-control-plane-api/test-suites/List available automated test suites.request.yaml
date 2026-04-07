@@ -76,14 +76,14 @@ examples:
           {
             "data": [
               {
-                "suiteId": "faad5c94-ca51-d290-a714-ac750018efce",
+                "suiteId": "c0a6d7d5-a65e-7707-740f-944371ead14d",
                 "name": "string",
                 "application": "string",
-                "type": "api",
+                "type": "performance",
                 "owner": "string"
               },
               {
-                "suiteId": "14c8c101-5b20-f31e-ad37-b989fba6eb17",
+                "suiteId": "ef792a2f-31e6-7443-6e66-59214b3cece9",
                 "name": "string",
                 "application": "string",
                 "type": "security",

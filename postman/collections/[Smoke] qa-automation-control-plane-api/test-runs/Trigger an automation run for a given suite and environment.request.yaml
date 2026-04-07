@@ -11,11 +11,11 @@ body:
   type: json
   content: |-
     {
-      "suiteId": "91096d15-60c2-9b24-4e24-9085a04be61c",
-      "environment": "preprod",
+      "suiteId": "d6c26923-bdf5-be9d-3d1e-cada7b2137d5",
+      "environment": "dev",
       "releaseVersion": "string",
       "triggeredBy": "string",
-      "runMode": "regression"
+      "runMode": "smoke"
     }
 scripts:
   - type: afterResponse
@@ -43,16 +43,16 @@ examples:
         type: json
         content: |-
           {
-            "runId": "45024c4e-c75a-6b40-df53-4ab3a3043b82",
-            "suiteId": "83c76e45-1184-212e-c88a-42894b5af37a",
+            "runId": "be5eb93d-d2f1-e87a-c493-8b9964658a2b",
+            "suiteId": "a8b76415-463c-8cef-1054-bda16f811248",
             "status": "queued",
             "environment": "string",
             "releaseVersion": "string",
-            "startedAt": "2002-01-11T16:31:57.737Z",
-            "finishedAt": "1978-03-01T05:17:52.011Z",
-            "passedCount": 6517,
-            "failedCount": 9778,
-            "flakyCount": 1543
+            "startedAt": "1963-09-17T22:55:39.374Z",
+            "finishedAt": "2005-01-05T06:44:06.267Z",
+            "passedCount": 9002,
+            "failedCount": 7255,
+            "flakyCount": 4198
           }
       headers:
         - key: Content-Type

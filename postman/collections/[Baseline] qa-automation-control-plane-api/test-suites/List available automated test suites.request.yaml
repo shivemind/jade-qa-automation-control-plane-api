@@ -15,14 +15,14 @@ examples:
           {
             "data": [
               {
-                "suiteId": "bd29bbf4-6611-9367-9563-2ee9fabd2d50",
+                "suiteId": "6273d771-ab73-5152-fbc9-a1e7ce93bb01",
                 "name": "string",
                 "application": "string",
-                "type": "performance",
+                "type": "ui",
                 "owner": "string"
               },
               {
-                "suiteId": "c9371745-2c01-e6f7-0f12-56cb8781a4e5",
+                "suiteId": "e45b6931-013e-1532-3004-a40ba31cfd21",
                 "name": "string",
                 "application": "string",
                 "type": "integration",
