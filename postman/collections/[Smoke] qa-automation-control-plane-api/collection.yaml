@@ -3,7 +3,7 @@ type: collection
 name: '[Smoke] qa-automation-control-plane-api'
 description: |
   Sample API for triggering, tracking, and reporting enterprise QA automation runs across applications, environments, and release trains.
-id: 25c61a25-af48-4f69-97ee-9f8d60f06ce1
+id: 2f7a1514-5edd-4280-9dc5-2ac16b20e5d0
 variables:
   - key: baseUrl
     value: https://stage-api.example.com/qa-control

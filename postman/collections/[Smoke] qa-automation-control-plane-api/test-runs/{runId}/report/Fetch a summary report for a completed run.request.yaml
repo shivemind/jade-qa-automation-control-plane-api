@@ -7,7 +7,7 @@ headers:
     value: application/json
 pathVariables:
   - key: runId
-    value: a75f31dd-e4c3-eb86-7e4d-f808163e23af
+    value: 4a232a32-5ca9-54af-9800-847b5c018630
 scripts:
   - type: afterResponse
     code:
@@ -34,9 +34,9 @@ examples:
         type: json
         content: |-
           {
-            "runId": "8432dba5-83f4-3395-facf-b4b97bfd8d16",
+            "runId": "28c2d292-5360-9a48-51b5-9ba89fd46307",
             "qualityGate": "pass",
-            "defectLeakageRisk": "high",
+            "defectLeakageRisk": "medium",
             "summary": "string",
             "topFailures": [
               {

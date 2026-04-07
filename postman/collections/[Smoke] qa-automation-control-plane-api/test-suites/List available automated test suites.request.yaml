@@ -33,17 +33,17 @@ examples:
           {
             "data": [
               {
-                "suiteId": "ca15f9ed-3e0a-0c24-2849-ce6a865ceb5c",
+                "suiteId": "15cd7222-1bca-36f6-aa53-fac1ea83d6ef",
                 "name": "string",
                 "application": "string",
-                "type": "security",
+                "type": "performance",
                 "owner": "string"
               },
               {
-                "suiteId": "9d478674-fcd2-1a4a-074a-3711c32e1293",
+                "suiteId": "922010d4-a7e7-876c-d1f0-f82445944baf",
                 "name": "string",
                 "application": "string",
-                "type": "integration",
+                "type": "security",
                 "owner": "string"
               }
             ]
